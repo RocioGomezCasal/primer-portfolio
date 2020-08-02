@@ -12,10 +12,12 @@ body {
     list-style-type: none;
     justify-content: flex-end;
     box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+   
   }
 
-.links-navegacion li {
+  .links-navegacion li {
     margin: 20px;
+    
   }
   
 .primeraseccion {
@@ -23,15 +25,38 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+    padding: 100px;
 }
 
-h3{
-    text-align: center;
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e2e31;
+
+}
+
+button {
+    background-color: #04d2f7;
+    color: rgb(110, 108, 110);
+    padding: 15px 40px;
+    border-radius: 100px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0px;
+}
+
+.descripcion {
+    color: rgb(148, 142, 142);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .img {
     display: block;
-    width: 100%;
+    width: 400px;
+
 }
    
 
