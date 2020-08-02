@@ -12,6 +12,7 @@ body {
     list-style-type: none;
     justify-content: flex-end;
     box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+    align-items: center;
    
   }
 
@@ -68,3 +69,8 @@ button {
 
 }
 
+.imagenes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
