@@ -31,11 +31,24 @@ body {
     padding: 100px;
 }
 
-h2 {
+.titulo1{
     font-family: 'Montserrat', sans-serif;
     color: #2e2e31;
 
 }
+
+.tituloprincipal {
+    color:rgb(97, 97, 238);
+    font-size: 50px;
+    font-family:Rowdies;
+
+}
+
+.descripcion {
+    color: rgb(148, 142, 142);
+    font-family: 'Courier New', Courier, monospace;
+}
+
 
 button {
     background-color: #04d2f7;
@@ -49,28 +62,47 @@ button {
     border:0px;
 }
 
-.descripcion {
-    color: rgb(148, 142, 142);
-    font-family: 'Courier New', Courier, monospace;
-}
 
-.img {
+.representacion {
     display: block;
     width: 400px;
 
 }
    
 
-
-.tituloprincipal {
-    color:rgb(51, 51, 230);
-    font-size: 50px;
-    font-family:Rowdies;
-
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    font-size: 25px;
+    text-align: center;
 }
 
-.imagenes {
+.tarjetas {
+   background-color: white;
+   border: 5px solid grey ;
+   border-radius: 25px;
+   text-align: center;
+   padding: 20px;
+    height: 200px;
+    width: 200px; 
+   
+}
+
+.contenedor{
+    background-color: rgb(224, 224, 245);
+    border: 5px solid rgb(224, 224, 245);
+    text-align: center;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content:center;
+    align-items:center;
 }
+
+.frase {
+    background-color: hotpink;
+    text-align: center;
+    padding: 50px;
+}  
+
