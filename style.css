@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Overpass;
     background-color: #f6f7fb;
+    font-size: 15px;
 }
 
 .links-navegacion {
@@ -82,27 +85,47 @@ p {
 
 .tarjetas {
    background-color: white;
-   border: 5px solid grey ;
+   border: 1px solid grey ;
    border-radius: 25px;
    text-align: center;
    padding: 20px;
     height: 200px;
     width: 200px; 
+
    
 }
 
 .contenedor{
-    background-color: rgb(224, 224, 245);
-    border: 5px solid rgb(224, 224, 245);
+    background-color: rgb(244, 244, 247);
+    border: 5px solid rgb(244, 244, 247);
     text-align: center;
     display: flex;
     justify-content:center;
     align-items:center;
+    padding: 30px;
+    
 }
 
 .frase {
-    background-color: hotpink;
+    background-color:hotpink;
     text-align: center;
-    padding: 50px;
+    padding: 60px;
 }  
 
+p {
+    font-family: "josefin sans";
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    
+}
+.barra-navegacion {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    justify-items:center;
+   
+
+}
