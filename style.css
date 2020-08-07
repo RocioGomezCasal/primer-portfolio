@@ -121,11 +121,36 @@ h1 {
     text-align: center;
     
 }
-.barra-navegacion {
+.links-navegacion {
     display: flex;
     padding: 20px;
     justify-content: center;
     justify-items:center;
-   
+    list-style-type: none;
+    margin-right: 20px;
+    box-shadow: none;
+    
+ 
+}
 
+button.casi-barra {
+    background-color: white;
+    
+}
+.trabajosrealizados {
+    display: flex;
+    justify-content: center;
+    
+       
+    
+}
+    
+
+.primeraimagen {  
+    margin:12;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    
+    
 }
