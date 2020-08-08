@@ -8,6 +8,7 @@ body {
     font-family: Overpass;
     background-color: #f6f7fb;
     font-size: 15px;
+    margin:0;
 }
 
 .links-navegacion {
@@ -16,6 +17,7 @@ body {
     justify-content: flex-end;
     box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
     align-items: center;
+    
    
   }
 
@@ -121,7 +123,7 @@ h1 {
     text-align: center;
     
 }
-.links-navegacion {
+.links-segunda-barra{
     display: flex;
     padding: 20px;
     justify-content: center;
@@ -140,17 +142,23 @@ button.casi-barra {
 .trabajosrealizados {
     display: flex;
     justify-content: center;
+    padding: 20px;
+    margin: 20px;
     
-       
+    
+    
+ 
     
 }
     
 
 .primeraimagen {  
-    margin:12;
+   
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     padding: 20px;
-    
-    
+    display: inline-block;
+    text-align: center;
+      
 }
+
