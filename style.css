@@ -172,18 +172,24 @@ button.casi-barra {
     text-align: center;
       
 }
+
+/*INICIO DEL FOOTER*/
+
 footer {
     display: block;
     background-color: rgb(184, 118, 245);
     margin:50px;
 }
 .lista-desordenada {
-    
+    display: flex;
+    padding: 20px;
+    color: white;
     font-size: 20px;
     font-family: "josefin sans";
     display: flex;
     list-style: none;
     justify-content: center;
+    
     
 }
 
