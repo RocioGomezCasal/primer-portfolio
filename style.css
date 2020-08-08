@@ -5,12 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
 
+/*ESTILOS GENERALES*/
+
 body {
     font-family: Overpass;
     background-color: #f6f7fb;
     font-size: 20px;
     margin:0;
 }
+/* ESTILOS A LA BARRA DE NAVEGACION*/
 
 .links-navegacion {
     display: flex;
@@ -18,22 +21,28 @@ body {
     justify-content: flex-end;
     box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
     align-items: center;
+}
     
-   
-  }
+/*SI NO LO PONÍA DE ESTA MANERA SE ME ROMPÍA TODO*/
+
+ 
 
   .links-navegacion li {
     margin: 20px;
     
   }
+
+/* PADRE DE LA PRIMERA SECCIÓN*/
   
-.primeraseccion {
+.primera-seccion {
+    
     display:flex;
     align-items: center;         
     max-width: 1100px;
     padding: 100px;
     
 }
+
 
 .titulo1{
     font-family: "Lemonada";
@@ -48,10 +57,7 @@ body {
 
 }
 
-.descripcion {
-    color: rgb(148, 142, 142);
-    font-family: 'Courier New', Courier, monospace;
-}
+
 
 
 button {
@@ -72,7 +78,16 @@ button {
     width: 400px;
 
 }
-   
+
+  /*FIN DE PRIMERA SECCIÓN*/ 
+
+  /*INICIO SECCIÓN TARJETAS*/
+
+  .contenedor-caja-principal {
+
+      background-color: #EECDE6;
+      padding: 15px;
+  }
 
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -87,7 +102,11 @@ p {
 .contenedor-imagen {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
 }
+
 .tarjetas {
    background-color: white;
    border: 1px solid grey ;
@@ -96,20 +115,9 @@ p {
    padding: 20px;
     height: 200px;
     width: 200px; 
-
    
 }
 
-.contenedor{
-    background-color: rgb(244, 244, 247);
-    border: 5px solid rgb(244, 244, 247);
-    text-align: center;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    padding: 30px;
-    
-}
 
 .frase {
     background-color:hotpink;
@@ -125,15 +133,18 @@ h1 {
     font-size: 40px;
     text-align: center;
     
+    
 }
+
 .links-segunda-barra{
     display: flex;
     padding: 20px;
-    justify-content: center;
+    justify-content:center;
     justify-items:center;
     list-style-type: none;
     margin-right: 20px;
     box-shadow: none;
+
     
  
 }
@@ -147,10 +158,8 @@ button.casi-barra {
     justify-content: center;
     padding: 20px;
     margin: 20px;
-    
   
- 
-    
+     
 }
     
 
@@ -162,5 +171,19 @@ button.casi-barra {
     display: inline-block;
     text-align: center;
       
+}
+footer {
+    display: block;
+    background-color: rgb(184, 118, 245);
+    margin:50px;
+}
+.lista-desordenada {
+    
+    font-size: 20px;
+    font-family: "josefin sans";
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
 }
 
