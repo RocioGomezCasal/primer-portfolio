@@ -3,11 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
 
 body {
     font-family: Overpass;
     background-color: #f6f7fb;
-    font-size: 15px;
+    font-size: 20px;
     margin:0;
 }
 
@@ -28,16 +29,14 @@ body {
   
 .primeraseccion {
     display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    align-items: center;         
     max-width: 1100px;
     padding: 100px;
+    
 }
 
 .titulo1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Lemonada";
     color: #2e2e31;
 
 }
@@ -85,6 +84,10 @@ p {
     text-align: center;
 }
 
+.contenedor-imagen {
+    display: flex;
+    justify-content: space-between;
+}
 .tarjetas {
    background-color: white;
    border: 1px solid grey ;
@@ -145,8 +148,7 @@ button.casi-barra {
     padding: 20px;
     margin: 20px;
     
-    
-    
+  
  
     
 }
