@@ -136,45 +136,31 @@ p {
     text-align: center;
 }
 
-.CONTENEDOR {
-    
-    height: 100px;
-    width: 100px;
-    padding: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-}
-.CONTENIDO {
-   
- 
-   background-color: white;
-   border: 1px solid grey ;
-   border-radius: 25px;
-   text-align: center;
-   padding: 20px;
-   margin: 10px;
-    height: 150px;
-    width: 150px; 
-   
-}
+/*FIN DE LAS PRIMERAS TARJETAS*/
+
+/*INICIO DE FRASE IDENTIFICATORIO*/
 
 
 .frase {
     background-color:hotpink;
     text-align: center;
-    padding: 60px;
+    padding: 110px 40px 130px;
 }  
 
-p {
-    font-family: "josefin sans";
-}
+/*FIN DE SECCIÓN*/
+
+/*INICIO DE SUBSECCIÓN CON TARJETAS DE PROYECTOS*/
+
 
 h1 {
     font-size: 40px;
     text-align: center;
-    
-    
+      
+}
+
+p {
+    font-family: "josefin sans";
+    font-size: 15px;
 }
 
 .links-segunda-barra{
@@ -184,9 +170,7 @@ h1 {
     justify-items:center;
     list-style-type: none;
     margin-right: 20px;
-    box-shadow: none;
-
-    
+    box-shadow: none; 
  
 }
 
@@ -194,6 +178,37 @@ button.casi-barra {
     background-color: white;
     
 }
+
+.CONTENEDOR {
+    background-color: red;
+    height: 200hv;
+    width: 200vw;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.CONTENIDO {
+    
+    height: 200px;
+    width: 200px;
+   background-color: white;
+   border: 1px solid grey ;
+   border-radius: 25px;
+   text-align: center;
+   padding: 20px;
+   margin: 10px;
+    
+   
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 .trabajosrealizados {
     display: flex;
     justify-content: center;
@@ -202,6 +217,7 @@ button.casi-barra {
   
      
 }
+
 
 .trabajos-realizados {
     height: 50px;
