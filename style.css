@@ -15,12 +15,16 @@ body {
 }
 /* ESTILOS A LA BARRA DE NAVEGACION*/
 
+
+
+
 .links-navegacion {
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
-    box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
     align-items: center;
+    box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+    
 }
     
 /*SI NO LO PONÍA DE ESTA MANERA SE ME ROMPÍA TODO*/
@@ -32,14 +36,36 @@ body {
     
   }
 
+  button {
+    background-color: #04d2f7;
+    font-size: 18PX;
+    color: rgb(29, 28, 29);
+    padding: 15px 40px;
+    border-radius: 100px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    border:0px;
+}
+
+/* FIN DE LA PRIMERA BARRA DE NAVEGACIÓN*/
+
 /* PADRE DE LA PRIMERA SECCIÓN*/
+
+.parte-1 {
+    display: flex;
+       
+    
+}
   
 .primera-seccion {
     
     display:flex;
+    justify-content: center;
     align-items: center;         
     max-width: 1100px;
-    padding: 100px;
+    padding: 20px;
+        
     
 }
 
@@ -59,34 +85,24 @@ body {
 
 
 
-
-button {
-    background-color: #04d2f7;
-    color: rgb(110, 108, 110);
-    padding: 15px 40px;
-    border-radius: 100px;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border:0px;
-}
-
-
 .representacion {
-    display: block;
-    width: 400px;
+    display: flex;
+    width: 200px;
+    height: auto;
+    padding: 100px;
 
 }
 
   /*FIN DE PRIMERA SECCIÓN*/ 
 
-  /*INICIO SECCIÓN TARJETAS*/
+  /* SEGUNDA SECCIÓN CON TARJETAS*/
 
   .contenedor-caja-principal {
 
-      background-color: #EECDE6;
-      padding: 15px;
+    
+    background-color: #FFFCEB;
+    padding: 15px;
+
   }
 
 h3 {
@@ -99,22 +115,47 @@ p {
     text-align: center;
 }
 
+ /*INICIO DE TARJETAS*/
+
 .contenedor-imagen {
+    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding: 100px;
+    
 }
 
 .tarjetas {
+    border:1px solid #232631;
+    border-radius: 8px;
+    width: 260px;
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+.CONTENEDOR {
+    
+    height: 100px;
+    width: 100px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.CONTENIDO {
+   
+ 
    background-color: white;
    border: 1px solid grey ;
    border-radius: 25px;
    text-align: center;
    padding: 20px;
-    height: 200px;
-    width: 200px; 
+   margin: 10px;
+    height: 150px;
+    width: 150px; 
    
 }
 
@@ -161,15 +202,20 @@ button.casi-barra {
   
      
 }
-    
 
-.primeraimagen {  
+.trabajos-realizados {
+    height: 50px;
+    width: 50px;
+}
+
+.primera-imagen {  
    
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     padding: 20px;
     display: inline-block;
     text-align: center;
+    
       
 }
 
@@ -182,13 +228,13 @@ footer {
 }
 .lista-desordenada {
     display: flex;
+    justify-content: space-evenly;
     padding: 20px;
     color: white;
     font-size: 20px;
     font-family: "josefin sans";
-    display: flex;
     list-style: none;
-    justify-content: center;
+    
     
     
 }
