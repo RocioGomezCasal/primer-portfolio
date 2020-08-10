@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 /*ESTILOS GENERALES*/
 
@@ -39,21 +40,26 @@ body {
   button {
     background-color: #04d2f7;
     font-size: 18PX;
-    color: rgb(29, 28, 29);
+    color: white;
     padding: 15px 40px;
     border-radius: 100px;
     font-weight: 500;
     display: flex;
     justify-content: center;
     border:0px;
+    
 }
-
+button:hover {
+    background-color: black;
+    
+}
 /* FIN DE LA PRIMERA BARRA DE NAVEGACIÓN*/
 
 /* PADRE DE LA PRIMERA SECCIÓN*/
 
 .parte-1 {
     display: flex;
+    flex-wrap: wrap;
        
     
 }
@@ -81,6 +87,10 @@ body {
     font-size: 50px;
     font-family:Rowdies;
 
+}
+
+.descripcion {
+    font-size: 25px;
 }
 
 
@@ -120,7 +130,7 @@ p {
 .contenedor-imagen {
     
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 100px;
@@ -128,12 +138,17 @@ p {
 }
 
 .tarjetas {
+    background-color: white;
     border:1px solid #232631;
     border-radius: 8px;
     width: 260px;
     margin: 15px;
     padding: 30px;
     text-align: center;
+}
+
+.texto-abajo {
+    font-size: 20px;
 }
 
 /*FIN DE LAS PRIMERAS TARJETAS*/
@@ -145,7 +160,13 @@ p {
     background-color:hotpink;
     text-align: center;
     padding: 110px 40px 130px;
+    
 }  
+
+.albert {
+    font-size: 30px;
+    font-family: "Sriracha";
+}
 
 /*FIN DE SECCIÓN*/
 
@@ -175,24 +196,27 @@ p {
 }
 
 button.casi-barra {
-    background-color: white;
+    background-color: rgb(253, 252, 252);
+    color:black;
     
 }
 
 .CONTENEDOR {
-    background-color: red;
-    height: 200hv;
-    width: 200vw;
+    
+    height: auto;
+    width: 100%;
     padding: 70px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
     
     
 }
 .CONTENIDO {
     
-    height: 200px;
+    height: 250px;
     width: 200px;
    background-color: white;
    border: 1px solid grey ;
@@ -200,11 +224,12 @@ button.casi-barra {
    text-align: center;
    padding: 20px;
    margin: 10px;
+   margin-top: 20px;
     
    
 }
 
-img {
+.imagen-proyecto {
     width: 100%;
     height: auto;
 }
