@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
 
 /*ESTILOS GENERALES*/
 
@@ -13,10 +14,9 @@ body {
     background-color: #f6f7fb;
     font-size: 20px;
     margin:0;
+    
 }
 /* ESTILOS A LA BARRA DE NAVEGACION*/
-
-
 
 
 .links-navegacion {
@@ -27,14 +27,11 @@ body {
     box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
     
 }
-    
-/*SI NO LO PONÍA DE ESTA MANERA SE ME ROMPÍA TODO*/
-
- 
+   
 
   .links-navegacion li {
     margin: 20px;
-    
+       
   }
 
   button {
@@ -49,6 +46,7 @@ body {
     border:0px;
     
 }
+
 button:hover {
     background-color: black;
     
@@ -84,7 +82,7 @@ button:hover {
 
 .tituloprincipal {
     color:rgb(97, 97, 238);
-    font-size: 50px;
+    font-size: 80px;
     font-family:Rowdies;
 
 }
@@ -115,12 +113,12 @@ button:hover {
 
   }
 
-h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.mis-conocimientos {
+    font-family: "Recursive";
     font-size: 30px;
     text-align: center;
 }
-p {
+.que-ponemos {
     font-size: 25px;
     text-align: center;
 }
@@ -210,6 +208,7 @@ button.casi-barra {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    box-sizing: border-box;
     
     
     
@@ -225,7 +224,8 @@ button.casi-barra {
    padding: 20px;
    margin: 10px;
    margin-top: 20px;
-    
+   
+     
    
 }
 
@@ -240,7 +240,7 @@ button.casi-barra {
     padding: 20px;
     margin: 20px;
   
-     
+    
 }
 
 
@@ -263,20 +263,24 @@ button.casi-barra {
 /*INICIO DEL FOOTER*/
 
 footer {
-    display: block;
+    display: flex;
+    justify-content:center;
     background-color: rgb(184, 118, 245);
     margin:50px;
+    height: 100px;
 }
 .lista-desordenada {
     display: flex;
-    justify-content: space-evenly;
+    margin-left: 20px;
     padding: 20px;
     color: white;
     font-size: 20px;
     font-family: "josefin sans";
     list-style: none;
     
-    
-    
+   
 }
 
+.lista-desordenada li {
+    margin-right: 20px;
+}
