@@ -66,9 +66,7 @@ button:hover {
 
 .parte-1 {
     display: flex;
-    flex-wrap: wrap;
-   
-    
+       
 }
   
 .primera-seccion {
@@ -78,17 +76,16 @@ button:hover {
     align-items: center;         
     max-width: 1100px;
     padding: 30px;
-       
-    
+           
 }
 
 a {
     text-decoration: none;
 }
+
 .titulo1{
     font-family: "Lemonada";
     color: #2e2e31;
-
 }
 
 .tituloprincipal {
@@ -121,9 +118,8 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
     width: 200px;
     height: auto;
     padding: 100px;
-
+    
 }
-
 
 
   /*FIN DE PRIMERA SECCIÓN*/ 
@@ -149,6 +145,8 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
 }
 
  /*INICIO DE TARJETAS*/
+
+ 
 
 .contenedor-imagen {
     
@@ -228,15 +226,14 @@ button.casi-barra {
 
 .CONTENEDOR {
     
+    justify-content: center;
+    align-items: flex-end;
     height: auto;
     width: 100%;
     padding: 70px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     box-sizing: border-box;
-    
     
     
 }
@@ -249,16 +246,14 @@ button.casi-barra {
     border-radius: 25px;
     text-align: center;
     padding: 20px;
-    margin: 10px;
-    
-   
+    margin: 20px;
      
-   
 }
 
 .imagen-proyecto {
     width: 100%;
     height: auto;
+       
 }
 
 .trabajosrealizados {
@@ -312,21 +307,18 @@ footer {
 
 .fab, .fas {
     font-size: 30px;
-    
-        
+       
 }
-
-
 
 .lista-desordenada li {
     margin-right: 20px;
 }
 
-
+/*COMIENZO DE MEDIA QUERY*/
 
 @media (max-width:600px) {
      
-.primeraseccion {
+.primera-seccion {
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -334,17 +326,20 @@ footer {
 
 .menu-hamburguesa {
     display: block;
+    margin-right: 20px;
 }
 
 .links-navegacion li{
     display: none;
 }
 
-}
+.lista-desordenada li {
+        display:none;
+    }
+
 
 @media (max-width:900px) {
 .contenedor {
-    background-color: ;
     flex-direction: column;
     align-items: center;
 }
