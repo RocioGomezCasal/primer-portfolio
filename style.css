@@ -77,7 +77,6 @@ button:hover {
     display:flex;
     justify-content: center;
     align-items: center;         
-    max-width: 1100px;
     padding: 30px;
            
 }
@@ -102,9 +101,7 @@ a {
     font-size: 25px;
 }
 
-.hola {    
-    height: 500px;
-}
+
  
 /*intente poner este estilo en la imagen (por eso tiene una clase) pero no podía lograr
 que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
@@ -116,13 +113,15 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
 */
 
 .representacion {
-    display: flex;
-    width: 200px;
-    height: auto;
+    width: 50%;
     padding: 100px;
     
 }
 
+.imagen-representacion {
+    width: 50%;
+    height: auto;
+}
 
 /*FIN DE PRIMERA SECCIÓN*/ 
 
@@ -130,7 +129,7 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
 
 .contenedor-caja-principal {    
     background-color: #FFFCEB;
-    padding: 15px;
+    padding:15px;
 
   }
 
