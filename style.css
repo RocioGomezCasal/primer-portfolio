@@ -8,9 +8,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
 
 /*ESTILOS GENERALES*/
-
+html {
+    scroll-behavior: smooth;
+}
 body {
-    font-family: Overpass;
+    font-family: "Overpass";
     background-color: #f6f7fb;
     font-size: 20px;
     margin:0;
@@ -18,16 +20,23 @@ body {
 }
 /* ESTILOS A LA BARRA DE NAVEGACION*/
 
+.primeras-elecciones {
+    height: 100px;
+}
 
 .links-navegacion {
     display: flex;
+    height: 100px;
     list-style-type: none;
     justify-content: flex-end;
     align-items: center;
     box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
     
 }
-   
+
+.menu-hamburguesa {
+    display: none;
+}
 
   .links-navegacion li {
     margin: 20px;
@@ -58,7 +67,7 @@ button:hover {
 .parte-1 {
     display: flex;
     flex-wrap: wrap;
-       
+   
     
 }
   
@@ -68,12 +77,14 @@ button:hover {
     justify-content: center;
     align-items: center;         
     max-width: 1100px;
-    padding: 20px;
-        
+    padding: 30px;
+       
     
 }
 
-
+a {
+    text-decoration: none;
+}
 .titulo1{
     font-family: "Lemonada";
     color: #2e2e31;
@@ -83,7 +94,7 @@ button:hover {
 .tituloprincipal {
     color:rgb(97, 97, 238);
     font-size: 80px;
-    font-family:Rowdies;
+    font-family:"Rowdies";
 
 }
 
@@ -91,7 +102,19 @@ button:hover {
     font-size: 25px;
 }
 
+.hola {
+    
+    height: 500px;
+}
+ 
+/*intente poner este estilo en la imagen (por eso tiene una clase) pero no podía lograr
+que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
 
+.imagen-representacion {
+    width: 100%;
+    height: auto;
+}
+*/
 
 .representacion {
     display: flex;
@@ -100,6 +123,8 @@ button:hover {
     padding: 100px;
 
 }
+
+
 
   /*FIN DE PRIMERA SECCIÓN*/ 
 
@@ -143,6 +168,7 @@ button:hover {
     margin: 15px;
     padding: 30px;
     text-align: center;
+    
 }
 
 .texto-abajo {
@@ -208,7 +234,6 @@ button.casi-barra {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
     flex-wrap: wrap;
     box-sizing: border-box;
     
@@ -217,9 +242,8 @@ button.casi-barra {
 }
 .CONTENIDO {
 
-    
     height: 250px;
-    width: 200px;
+    width: 200px;    
     background-color: white;
     border: 1px solid grey ;
     border-radius: 25px;
@@ -283,9 +307,45 @@ footer {
     font-family: "josefin sans";
     list-style: none;
     
-   
+ 
 }
+
+.fab, .fas {
+    font-size: 30px;
+    
+        
+}
+
+
 
 .lista-desordenada li {
     margin-right: 20px;
+}
+
+
+
+@media (max-width:600px) {
+     
+.primeraseccion {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-hamburguesa {
+    display: block;
+}
+
+.links-navegacion li{
+    display: none;
+}
+
+}
+
+@media (max-width:900px) {
+.contenedor {
+    background-color: ;
+    flex-direction: column;
+    align-items: center;
+}
 }
