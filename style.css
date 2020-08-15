@@ -8,9 +8,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
 
 /*ESTILOS GENERALES*/
+
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: "Overpass";
     background-color: #f6f7fb;
@@ -18,6 +20,7 @@ body {
     margin:0;
     
 }
+
 /* ESTILOS A LA BARRA DE NAVEGACION*/
 
 .primeras-elecciones {
@@ -38,12 +41,12 @@ body {
     display: none;
 }
 
-  .links-navegacion li {
+.links-navegacion li {
     margin: 20px;
        
-  }
+}
 
-  button {
+button {
     background-color: #04d2f7;
     font-size: 18PX;
     color: white;
@@ -60,6 +63,7 @@ button:hover {
     background-color: black;
     
 }
+
 /* FIN DE LA PRIMERA BARRA DE NAVEGACIÓN*/
 
 /* PADRE DE LA PRIMERA SECCIÓN*/
@@ -69,8 +73,7 @@ button:hover {
        
 }
   
-.primera-seccion {
-    
+.primera-seccion {    
     display:flex;
     justify-content: center;
     align-items: center;         
@@ -99,8 +102,7 @@ a {
     font-size: 25px;
 }
 
-.hola {
-    
+.hola {    
     height: 500px;
 }
  
@@ -122,13 +124,11 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
 }
 
 
-  /*FIN DE PRIMERA SECCIÓN*/ 
+/*FIN DE PRIMERA SECCIÓN*/ 
 
-  /* SEGUNDA SECCIÓN CON TARJETAS*/
+/* SEGUNDA SECCIÓN CON TARJETAS*/
 
-  .contenedor-caja-principal {
-
-    
+.contenedor-caja-principal {    
     background-color: #FFFCEB;
     padding: 15px;
 
@@ -139,6 +139,7 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
     font-size: 30px;
     text-align: center;
 }
+
 .que-ponemos {
     font-size: 25px;
     text-align: center;
@@ -147,9 +148,7 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
  /*INICIO DE TARJETAS*/
 
  
-
-.contenedor-imagen {
-    
+.contenedor-imagen {    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,6 +170,7 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
 
 .texto-abajo {
     font-size: 20px;
+    font-weight: 900;
 }
 
 /*FIN DE LAS PRIMERAS TARJETAS*/
@@ -193,7 +193,6 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
 /*FIN DE SECCIÓN*/
 
 /*INICIO DE SUBSECCIÓN CON TARJETAS DE PROYECTOS*/
-
 
 
 h1 {
@@ -224,8 +223,7 @@ button.casi-barra {
     
 }
 
-.CONTENEDOR {
-    
+.CONTENEDOR {    
     justify-content: center;
     align-items: flex-end;
     height: auto;
@@ -237,8 +235,8 @@ button.casi-barra {
     
     
 }
-.CONTENIDO {
 
+.CONTENIDO {
     height: 250px;
     width: 200px;    
     background-color: white;
@@ -271,8 +269,7 @@ button.casi-barra {
     width: 50px;
 }
 
-.primera-imagen {  
-   
+.primera-imagen {     
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     padding: 20px;
@@ -314,6 +311,11 @@ footer {
     margin-right: 20px;
 }
 
+
+.estilar-a {    
+    color: white;
+}
+
 /*COMIENZO DE MEDIA QUERY*/
 
 @media (max-width:600px) {
@@ -333,7 +335,7 @@ footer {
     display: none;
 }
 
-.lista-desordenada li {
+.ultima-nav {
         display:none;
     }
 
