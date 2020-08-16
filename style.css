@@ -191,9 +191,7 @@ a {
 /*INICIO DE SUBSECCIÓN CON TARJETAS DE PROYECTOS*/
 
 .contenedor-principal-subseccion {
-    
-    height: 900px;
-    background-color: red;     
+   background-color: red;     
 }
 
 .titulo-proyectos {
@@ -238,7 +236,7 @@ button.casi-barra {
     flex-wrap: wrap; 
     justify-content: space-between;
     align-items: center; 
-    padding: 40px;  
+    padding: 130px;  
     box-sizing: border-box;
     margin-right: 30px;
     
@@ -333,6 +331,10 @@ footer {
         display:none;
         }
     
+    .contenedor {
+        padding:40px;
+        justify-content: center;
+    }
     
     .contenido {
         padding: 80px 20px;
@@ -343,7 +345,7 @@ footer {
      
     .primera-seccion {
     flex-wrap: wrap;
-        
+       
     
 }
 
