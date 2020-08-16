@@ -43,6 +43,7 @@ body {
 
 .links-navegacion li {
     margin: 20px;
+    font-size: 25px;
        
 }
 
@@ -75,10 +76,16 @@ button:hover {
   
 .primera-seccion {    
     display:flex;
-    justify-content: center;
-    align-items: center;         
-    padding: 30px;
-           
+    justify-content:center;   
+    padding:20px;     
+        
+}
+
+.hola {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
 }
 
 a {
@@ -88,11 +95,12 @@ a {
 .titulo1{
     font-family: "Lemonada";
     color: #2e2e31;
+    font-size: 30px;
 }
 
 .tituloprincipal {
     color:rgb(97, 97, 238);
-    font-size: 80px;
+    font-size: 60px;
     font-family:"Rowdies";
 
 }
@@ -102,16 +110,6 @@ a {
 }
 
 
- 
-/*intente poner este estilo en la imagen (por eso tiene una clase) pero no podía lograr
-que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
-
-.imagen-representacion {
-    width: 100%;
-    height: auto;
-}
-*/
-
 .representacion {
     width: 50%;
     padding: 100px;
@@ -119,7 +117,7 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
 }
 
 .imagen-representacion {
-    width: 50%;
+    width: 80%;
     height: auto;
 }
 
@@ -129,7 +127,7 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
 
 .contenedor-caja-principal {    
     background-color: #FFFCEB;
-    padding:15px;
+    padding: 15px;
 
   }
 
@@ -168,7 +166,7 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
 }
 
 .texto-abajo {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 900;
 }
 
@@ -180,7 +178,7 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
 .frase {
     background-color:hotpink;
     text-align: center;
-    padding: 110px 40px 130px;
+    padding: 70px 40px 70px;
     
 }  
 
@@ -193,8 +191,11 @@ que me quedaran las cosas ordenadas. Me rebalsa la imagen. Male mía jajaja.
 
 /*INICIO DE SUBSECCIÓN CON TARJETAS DE PROYECTOS*/
 
+.contenedor-principal-subseccion {
+     height: 1200px;
+}
 
-h1 {
+.titulo-proyectos {
     font-size: 40px;
     text-align: center;
       
@@ -215,35 +216,39 @@ p {
     box-shadow: none; 
  
 }
+button {
+    margin-right: 20px;
+    font-size: 25px;
+}
 
 button.casi-barra {
     background-color: rgb(253, 252, 252);
     color:black;
+    font-size: 25px;
     
 }
 
-.CONTENEDOR {    
-    justify-content: center;
-    align-items: flex-end;
-    height: auto;
-    width: 100%;
-    padding: 70px;
-    display: flex;
+.CONTENEDOR {  
+    display: flex; 
     flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    padding: 70px;  
     box-sizing: border-box;
-    
-    
+    height: 400px;
+    width: 100%;
+       
 }
 
 .CONTENIDO {
-    height: 250px;
-    width: 200px;    
+    height: 280px;
+    width: 250px;    
     background-color: white;
-    border: 1px solid grey ;
+    border: 1px solid rgb(175, 175, 175) ;
     border-radius: 25px;
     text-align: center;
-    padding: 20px;
-    margin: 20px;
+    padding:50px;
+    margin:20px;
      
 }
 
@@ -261,7 +266,6 @@ button.casi-barra {
   
     
 }
-
 
 .trabajos-realizados {
     height: 50px;
@@ -281,11 +285,11 @@ button.casi-barra {
 /*INICIO DEL FOOTER*/
 
 footer {
-    padding: 50px;
+    padding: 70px;
     text-align: center;
     background-color: rgb(184, 118, 245);
-    margin:50px;
     height: 200px;
+    
 }
 
 .lista-desordenada {
@@ -298,7 +302,6 @@ footer {
     font-family: "josefin sans";
     list-style: none;
     
- 
 }
 
 .fab, .fas {
@@ -313,35 +316,61 @@ footer {
 
 .estilar-a {    
     color: white;
+    font-size: 25px;
 }
 
 /*COMIENZO DE MEDIA QUERY*/
 
 @media (max-width:600px) {
+    .primera-seccion {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-hamburguesa {
+        display: block;
+        margin-right: 20px;
+    }
+    .links-navegacion li{
+        display: none;
+    }
+    
+    .ultima-nav {
+        display:none;
+        }
+    
+    .contenedor-principal-subseccion {
+        height: 500px;
+    }
+    
+}
+
+@media (min-width:600px) and (max-width:900px) {
      
-.primera-seccion {
+    .primera-seccion {
     display:flex;
     flex-direction: column;
     align-items: center;
 }
 
-.menu-hamburguesa {
+    .menu-hamburguesa {
     display: block;
     margin-right: 20px;
 }
 
-.links-navegacion li{
+    .links-navegacion li{
     display: none;
 }
 
-.ultima-nav {
+    .ultima-nav {
         display:none;
     }
 
 
-@media (max-width:900px) {
-.contenedor {
+@media (min-width:900px) and (max-width:1500px) {
+    .contenedor {
     flex-direction: column;
     align-items: center;
 }
+
 }
