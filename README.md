@@ -1,8 +1,13 @@
-#PORTFOLIO
+# PORTFOLIO
 
-##Aplicar conocimientos adquiridos en la primera parte de Ada
+## Aplicar conocimientos adquiridos en la primera parte de Ada
+
+## Tecnología utilizada
 
 .HTML
 .CSS
 
-URL: https://portfoliorociogomezcasal.netlify.app/
+
+*Github*: [acá] https://github.com/RocioGomezCasal/primer-portfolio
+
+*URL*: [acá] https://portfoliorociogomezcasal.netlify.app/
