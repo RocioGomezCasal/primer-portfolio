@@ -339,6 +339,14 @@ footer {
     .contenido {
         padding: 80px 20px;
     }
+
+    .imagen-representacion {
+        padding:20px;
+    }
+    .lo-que-hago {
+        padding: 15px;
+        font-size: 15px;
+    }
 }
 
 @media (min-width:600px) and (max-width:900px) {
