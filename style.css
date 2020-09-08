@@ -1,3 +1,4 @@
+/* ojo que aca repetis Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
@@ -116,6 +117,7 @@ a {
           
 }
 
+/* mejor que sea 100% y en todo caso ajustas la medida del div */
 .imagen-representacion {
     width: 80%;
     height: auto;

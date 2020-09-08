@@ -8,6 +8,9 @@
     <link rel="shortcut icon" type="image/ico" href="favicon.ico">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!-- no es necesario importar esto tres veces... y finalmente usas imagenes de tu carpeta local, 
+    asi que no deberia estar esto -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
@@ -18,6 +21,7 @@
 
     <!--COMIENZO DE BARRA DE NAVEGACIÓN-->
 
+    <!-- este nombre de clase no es adecuado: recorda que debe ser descriptivo en un sentido funcional -->
     <nav class="primeras-elecciones">
 
 
@@ -25,6 +29,7 @@
             <li><a href="#hola">HOLA </a></li>
             <li><a href="#mis-conocimientos">CONOCIMIENTOS </a></li>
             <li><a href="#mis-proyectos">PROYECTOS </a></li>
+            <!-- esto eventualmente sera un link que lleve a una pagina de contacto, no deberia tener la etiqueta button -->
             <li><button>CONTACTO</button></li>
             <div class="menu-hamburguesa"><i class="fas fa-bars"></i> </div>
 
@@ -38,8 +43,12 @@
     <!--PRESENTACIÓN E IMAGEN DE INICIO-->
 
     <section class="parte-1">
+        <!-- no veo la necesidad de este div aqui. section podria tener el estilado primera-seccion -->
         <div class="primera-seccion">
             <div class="hola">
+            <!-- los titulos deben seguir una jerarquia clara: en este caso, tu hola y tus titulos como 
+                "Mis conocimientos" aunque claramente "Mis conocimientos" tiene una jerarquia mayor a este hola 
+                (que solo acompaña al titulo principal con tu nombre).  -->
                 <h2 class="titulo1" id="hola">¡Hola! soy</h2>
                 <h1 class="tituloprincipal">Rocío Gómez Casal</h1>
                 <p class="descripcion">Futura desarrolladora, exploradora del ukelele, el canto, el baile y la escritura
@@ -59,7 +68,7 @@
     <!--SEGUNDA SECCIÓN: DESCRIPCIÓN DE CONOCIMIENTOS. CON TARJETAS-->
 
     <section>
-
+<!-- no veo la necesidad de este div: esta clase contenedor-caja-principal deberia estar en section -->
         <div class="contenedor-caja-principal">
 
             <div>
@@ -137,7 +146,11 @@
 
         <!--INICIO DE BARRA DE NAVEGACIÓN-->
 
+        <!-- nuevamente, no es necesario este div -->
         <div class="contenedor-principal-subseccion">
+            <!-- No es necesario este div. 
+            Toma en cuenta que debe haber un solo h1 por pagina. Esto esta a la misma jerarquia
+            que "Mis conocimientos" asi que deberia tener la misma etiqueta -->
             <div>
                 <h1 id="mis-proyectos" class="titulo-proyectos">Mis proyectos</h1>
             </div>
@@ -220,6 +233,7 @@
 
         <!--BARRA DE NAVEGACIÓN DE FOOTER-->
 
+        <!-- no es necesario este div aca -->
         <div class="clase-en-footer">
             <div class="padre-navegacion">
                 <nav class="ultima-nav">
